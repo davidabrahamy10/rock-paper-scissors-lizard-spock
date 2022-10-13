@@ -9,23 +9,39 @@
 </head>
 <body>
     <h1 class="heading">
-        <img class="logo" src="assets/images/Rock_paper_scissors_lizard_spock.svg.png" alt="logo" > Rock, Paper, Scissors, Lizard, Spock
+        <img class="logo" src="assets/images/RPSLS.png" alt="logo" > Rock, Paper, Scissors, Lizard, Spock
     </h1>
-    <section class="game-area"></section>
+    <section class="game-area">
         <div>
-            <p>Choose your hand:</p>
-            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
-            <button aria-label="Paper" data-choice="1" class="control">Paper</button>
-            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
-            <button aria-label="Lizard" data-choice="3" class="control">Lizard</button>
-            <button aria-label="Spock" data-choice="4" class="control">Spock</button>
+            <p>Make your choice:</p>
+            <button aria-label="Rock" data-choice="0" class="control">
+                <img class="button-images" src="assets/images/Rock.svg" alt="rock">
+            </button>
+            <button aria-label="Paper" data-choice="1" class="control">
+                <img class="button-images" src="assets/images/Paper.svg" alt="paper">
+            </button>
+            <button aria-label="Scissors" data-choice="2" class="control">
+                <img class="button-images" src="assets/images/Scissors.svg" alt="scissors">
+            </button>
+            <button aria-label="Lizard" data-choice="3" class="control">
+                <img class="button-images" src="assets/images/Lizard.svg" alt="lizard">
+            </button>
+            <button aria-label="Spock" data-choice="4" class="control">
+                <img class="button-images" src="assets/images/Spock.svg" alt="spock">
+            </button>
         </div>
+    </section>
 
     <div class="score-area">
-        <p class="scores">Your Score <span id="win">0</span></p>
+        <p class="scores">Player Score <span id="player-score">0</span></p>
         <p class="scores">Draw <span id="draw">0</span></p>
-        <p class="scores">Computer Score <span id="lose">0</span></p>
+        <p class="scores">Computer Score <span id="computer-score">0</span></p>
     </div>
+
+    <footer>
+        <h3>Rules</h3>
+        <p>Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.</p>
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
