@@ -6,44 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>RPSLS</title>
 </head>
 
 <body>
 
-    <h1 class="heading">
-        <img class="logo" src="assets/images/RPSLS.png" alt="logo"> Rock, Paper, Scissors, Lizard, Spock
-    </h1>
+    <header>
+        <h1 class="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
+        <h2 class="sub-heading">Get 10 wins before the computer to win the game!</h2>
+    </header>
 
     <section class="game-area">
         <div>
-            <p id="choice-message">Make your choice:</p>
+            <p>Make your choice:</p>
             <button aria-label="Rock" data-choice="0" class="control">
-                <img class="button-images" src="assets/images/rock.svg" alt="rock">
+                <img class="button-images" src="assets/images/Rock.svg" alt="rock">
             </button>
             <button aria-label="Paper" data-choice="1" class="control">
-                <img class="button-images" src="assets/images/paper.svg" alt="paper">
+                <img class="button-images" src="assets/images/Paper.svg" alt="paper">
             </button>
             <button aria-label="Scissors" data-choice="2" class="control">
-                <img class="button-images" src="assets/images/scissors.svg" alt="scissors">
+                <img class="button-images" src="assets/images/Scissors.svg" alt="scissors">
             </button>
             <button aria-label="Lizard" data-choice="3" class="control">
-                <img class="button-images" src="assets/images/lizard.svg" alt="lizard">
+                <img class="button-images" src="assets/images/Lizard.svg" alt="lizard">
             </button>
             <button aria-label="Spock" data-choice="4" class="control">
-                <img class="button-images" src="assets/images/spock.svg" alt="spock">
+                <img class="button-images" src="assets/images/Spock.svg" alt="spock">
             </button>
         </div>
     </section>
 
     <div class="score-area">
-        <p class="scores">Player Score: <span id="player-score">0</span></p>
-        <p class="scores">Draw: <span id="draw">0</span></p>
-        <p class="scores">Computer Score: <span id="computer-score">0</span></p>
+        <p class="scores">Player Score <span id="player-score">0</span></p>
+        <p class="scores">Draw <span id="draw">0</span></p>
+        <p class="scores">Computer Score <span id="computer-score">0</span></p>
     </div>
 
     <div>
-        <button aria-label="reset" data-choice="5" class="control">Reset</button>
+        <button aria-label="Reset" data-choice="5" class="control">Reset</button>
     </div>
 
     <footer>
