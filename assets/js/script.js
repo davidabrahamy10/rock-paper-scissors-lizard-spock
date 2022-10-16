@@ -121,3 +121,16 @@ function checkWinner(playerChoice, computerChoice) {
         updateScore("draw");
     }
 }
+
+function updateScore(outcome) {
+    if (outcome === "player") {
+        playerScore++;
+        playerScoreSpan.innerHTML = playerScore;
+    } else if (outcome === "computer") {
+        computerScore++;
+        computerScoreSpan.innerHTML = computerScore;
+    } else if (outcome === "draw"){
+        drawScore++;
+        drawScoreSpan.innerHTML = drawScore;
+    } winGame(playerScore);
+}
