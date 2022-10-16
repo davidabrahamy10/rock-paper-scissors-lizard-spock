@@ -33,11 +33,6 @@ header {
 
 /* Game Area */
 
-.button-images {
-    width: 200px;
-    height: auto;
-}
-
 .game-area {
     width: 75%;
     margin-left: auto;
@@ -60,7 +55,8 @@ header {
     margin-left: 20px;
 }
 
-.player-label, .computer-label {
+.player-label,
+.computer-label {
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -98,34 +94,7 @@ button {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
-  .button-images {
-    width: 200px;
-    height: auto;
-    background-color: beige;
-    border-style: none;
-    border-radius: 50%;
-}
-
-/* Button Area */
-
-#choice-message {
-    font-size: 30px;
-    letter-spacing: 0.1rem;
-    margin: 15px;
-}
-
-button {
-    border-radius: 50%;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-  
-  button:hover {
-    background-color: #4CAF50;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-
-  .button-images {
+.button-images {
     width: 200px;
     height: auto;
     background-color: beige;

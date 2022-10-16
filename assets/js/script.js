@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /**
  * Declare constants for DOM elements
  * and possible choices
@@ -24,9 +26,9 @@
              let playerChoice = this.getAttribute("data-choice");
              playGame(playerChoice);
              buttonColor(this);
-         })
+         });
      }
- })
+ });
  
  function buttonColor(element) {
      let buttons = document.getElementsByTagName("button");
@@ -116,7 +118,7 @@
          messages.innerHTML = "You LOSE! Spock vaporizes Rock.";
          updateScore("computer");
      } else {
-         messages.innerHTML = "ITS A DRAW!"
+         messages.innerHTML = "ITS A DRAW!";
          updateScore("draw");
      }
  }
@@ -145,10 +147,10 @@
  
  function winGame() {
      if (playerScore == 10) {
-         messages.innerHTML = "WELL DONE! YOU WON THE GAME!"
+         messages.innerHTML = "WELL DONE! YOU WON THE GAME!";
          resetScore();
      } else if (computerScore == 10){
-         messages.innerHTML = "OH NO! COMPUTER WON THE GAME!"
+         messages.innerHTML = "OH NO! COMPUTER WON THE GAME!";
          resetScore();
      }
  }
