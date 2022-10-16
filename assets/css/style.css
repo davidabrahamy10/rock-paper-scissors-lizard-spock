@@ -133,6 +133,12 @@ button {
     border-radius: 50%;
 }
 
+/* Class created in script.js file and used to color player selection */
+
+.filter-green img {
+    background-color: #7dc758;
+}
+
 /* Game Rules Area */
 
 footer {
