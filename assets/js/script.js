@@ -134,3 +134,12 @@ function updateScore(outcome) {
         drawScoreSpan.innerHTML = drawScore;
     } winGame(playerScore);
 }
+
+function resetScore() {
+    playerScore = 0;
+    computerScore = 0;
+    drawScore = 0;
+    playerScoreSpan.innerHTML = 0;
+    computerScoreSpan.innerHTML = 0;
+    drawScoreSpan.innerHTML = 0;
+}
