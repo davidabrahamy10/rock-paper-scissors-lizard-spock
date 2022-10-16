@@ -37,3 +37,18 @@ function buttonColor(element) {
     element.classList.add("filter-green");
     console.log(element);
 }
+ /**
+  * 
+  */
+  function playGame(playerChoice) {
+ 
+    document.getElementById("player-image").src = `assets/images/${playerChoice}.svg`;
+    document.getElementById("player-image").alt = choices[playerChoice];
+
+    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+    document.getElementById("computer-image").src = `assets/images/${computerChoice}.svg`;
+    document.getElementById("computer-image").alt = choices[computerChoice];
+
+    checkWinner(playerChoice, computerChoice);
+}
