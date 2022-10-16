@@ -143,3 +143,13 @@ function resetScore() {
     computerScoreSpan.innerHTML = 0;
     drawScoreSpan.innerHTML = 0;
 }
+
+function winGame() {
+    if (playerScore == 10) {
+        messages.innerHTML = "WELL DONE! YOU WON THE GAME!"
+        resetScore();
+    } else if (computerScore == 10){
+        messages.innerHTML = "OH NO! COMPUTER WON THE GAME!"
+        resetScore();
+    }
+}
