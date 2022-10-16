@@ -204,3 +204,29 @@ footer p {
     font-size: 20px;
     letter-spacing: 0.1rem;
 }
+
+/* Media Queries for screens 1381px and smaller */
+
+@media (max-width: 1381px) {
+    .button-images {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .reset-btn-container {
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    #player-image,
+    #computer-image {
+        height: 35vw;
+        width: 35vw;
+    }
+
+    .reset-btn-container {
+        margin-bottom: 20%;
+    }
+}
