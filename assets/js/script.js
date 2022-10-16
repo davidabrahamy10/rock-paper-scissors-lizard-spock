@@ -18,17 +18,22 @@
  * and adds eventlisteners to the buttons.
  */
 
- document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.getElementsByTagName("button");
-
+ document.addEventListener("DOMContentLoaded", function () {
+    resetButton.addEventListener("click", resetScore);
     for (let button of buttons) {
-        button.addEventListener("click", function() {
-            if (this.getAttribute("data-choice") === "0") {
-                alert("You chose rock!");
-            } else {
-                let playerChoice = this.getAttribute("data-choice");
-                alert(`You chose ${playerChoice}`);
-            }
+        button.addEventListener("click", function () {
+            let playerChoice = this.getAttribute("data-choice");
+            playGame(playerChoice);
+            buttonColor(this);
         })
     }
 })
+
+function buttonColor(element) {
+    let buttons = document.getElementsByTagName("button");
+    for (let button of buttons) {
+        button.classList.remove("filter-green");
+    }
+    element.classList.add("filter-green");
+    console.log(element);
+}
