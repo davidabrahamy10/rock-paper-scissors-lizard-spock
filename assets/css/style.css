@@ -106,6 +106,25 @@ button {
     border-radius: 50%;
 }
 
+/* Button Area */
+
+#choice-message {
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    margin: 15px;
+}
+
+button {
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+  button:hover {
+    background-color: #4CAF50;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
 /* Game Rules Area */
 
 footer {
