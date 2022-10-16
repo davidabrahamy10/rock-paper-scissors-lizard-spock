@@ -4,7 +4,7 @@ Rock Paper Scissors Lizard Spock is a spin-off version of the original Rock Pape
 To win the game you will have to win 10 matches againt the computer whos moves are randomized making this the perfect decision making game.  
 
 
-![Responsice Mockup](https://ui.dev/amiresponsive?url=https://davidabrahamy10.github.io/rock-paper-scissors-lizard-spock/)
+![Responsice Mockup](assets/README_images/rock_paper_scissors_lizard_spock_responsive_mockup.png)
 
 ## Features 
 
