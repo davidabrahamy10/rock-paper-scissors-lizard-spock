@@ -35,3 +35,25 @@ header {
     width: 200px;
     height: auto;
 }
+
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.choice-board {
+    display: inline-block;
+    height: auto;
+    border-radius: 10%;
+}
+
+.player-choice-board {
+    margin-right: 20px;
+}
+
+.computer-choice-board {
+    margin-left: 20px;
+}
