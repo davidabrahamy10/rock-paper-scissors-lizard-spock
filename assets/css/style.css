@@ -139,6 +139,20 @@ button {
     background-color: #7dc758;
 }
 
+/* Score Area */
+
+.score-area {
+    text-align: center;
+}
+
+.scores {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
 /* Game Rules Area */
 
 footer {
