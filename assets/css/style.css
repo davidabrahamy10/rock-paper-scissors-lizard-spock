@@ -105,3 +105,23 @@ button {
     border-style: none;
     border-radius: 50%;
 }
+
+/* Game Rules Area */
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+footer p {
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+}
