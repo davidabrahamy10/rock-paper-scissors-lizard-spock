@@ -230,3 +230,33 @@ footer p {
         margin-bottom: 20%;
     }
 }
+
+@media (max-width: 880px) {
+
+    #player-image,
+    #computer-image {
+        height: 25vw;
+        width: 25vw;
+    }
+}
+
+@media (max-width: 497px) {
+    .reset-btn-container {
+        margin-top: 5px;
+        margin-bottom: 90%;
+        text-align: center;
+    }
+
+    .scores {
+        margin: 5px;
+    }
+
+    .player-label,
+    .computer-label {
+        font-size: 20px;
+    }
+
+    .player-choice-board {
+        margin-top: 60px;
+    }
+}
