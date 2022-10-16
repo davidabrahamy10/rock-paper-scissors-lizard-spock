@@ -85,3 +85,39 @@ function checkWinner(playerChoice, computerChoice) {
     } else if (playerChoice == "spock" && computerChoice == "rock") {
         messages.innerHTML = "You WON! Spock vaporizes Rock.";
         updateScore("player");
+                 //If the computer wins
+     } else if (computerChoice == "rock" && playerChoice == "lizard") {
+        messages.innerHTML = "You LOSE! Rock crushes Lizard.";
+        updateScore("computer");
+    } else if (computerChoice == "rock" && playerChoice == "lizard") {
+        messages.innerHTML = "You LOSE! Rock crushes Lizard.";
+        updateScore("computer");
+    } else if (computerChoice == "paper" && playerChoice == "rock") {
+        messages.innerHTML = "You LOSE! Paper covers Rock.";
+        updateScore("computer");
+    } else if (computerChoice == "paper" && playerChoice == "spock") {
+        messages.innerHTML = "You LOSE! Paper disproves Spock.";
+        updateScore("computer");
+    } else if (computerChoice == "scissors" && playerChoice == "lizard") {
+        messages.innerHTML = "You LOSE! Scissors decapitates Lizard.";
+        updateScore("computer");
+    } else if (computerChoice == "scissors" && playerChoice == "paper") {
+        messages.innerHTML = "You LOSE! Scissors cuts Paper.";
+        updateScore("computer");
+    } else if (computerChoice == "lizard" && playerChoice == "spock") {
+        messages.innerHTML = "You LOSE! Lizard poisons Spock.";
+        updateScore("computer");
+    } else if (computerChoice == "lizard" && playerChoice == "paper") {
+        messages.innerHTML = "You LOSE! Lizard eats Paper.";
+        updateScore("computer");
+    } else if (computerChoice == "spock" && playerChoice == "scissors") {
+        messages.innerHTML = "You LOSE! Spock smashes Scissors.";
+        updateScore("computer");
+    } else if (computerChoice == "spock" && playerChoice == "rock") {
+        messages.innerHTML = "You LOSE! Spock vaporizes Rock.";
+        updateScore("computer");
+    } else {
+        messages.innerHTML = "ITS A DRAW!"
+        updateScore("draw");
+    }
+}
