@@ -52,3 +52,36 @@ function buttonColor(element) {
 
     checkWinner(playerChoice, computerChoice);
 }
+
+function checkWinner(playerChoice, computerChoice) {
+     
+    if (playerChoice == "rock" && computerChoice == "scissors") {
+        messages.innerHTML = "You WON! Rock crushes Scissors.";
+        updateScore("player");
+    } else if (playerChoice == "rock" && computerChoice == "lizard") {
+        messages.innerHTML = "You WON! Rock crushes Lizard.";
+        updateScore("player");
+    } else if (playerChoice == "paper" && computerChoice == "rock") {
+        messages.innerHTML = "You WON! Paper covers Rock.";
+        updateScore("player");
+    } else if (playerChoice == "paper" && computerChoice == "spock") {
+        messages.innerHTML = "You WON! Paper disproves Spock.";
+        updateScore("player");
+    } else if (playerChoice == "scissors" && computerChoice == "lizard") {
+        messages.innerHTML = "You WON! Scissors decapitates Lizard.";
+        updateScore("player");
+    } else if (playerChoice == "scissors" && computerChoice == "paper") {
+        messages.innerHTML = "You WON! Scissors cuts Paper.";
+        updateScore("player");
+    } else if (playerChoice == "lizard" && computerChoice == "spock") {
+        messages.innerHTML = "You WON! Lizard poisons Spock.";
+        updateScore("player");
+    } else if (playerChoice == "lizard" && computerChoice == "paper") {
+        messages.innerHTML = "You WON! Lizard eats Paper.";
+        updateScore("player");
+    } else if (playerChoice == "spock" && computerChoice == "scissors") {
+        messages.innerHTML = "You WON! Spock smashes Scissors.";
+        updateScore("player");
+    } else if (playerChoice == "spock" && computerChoice == "rock") {
+        messages.innerHTML = "You WON! Spock vaporizes Rock.";
+        updateScore("player");
