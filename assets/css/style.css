@@ -57,3 +57,22 @@ header {
 .computer-choice-board {
     margin-left: 20px;
 }
+
+.player-label, .computer-label {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#player-image {
+    width: 350px;
+    height: auto;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+#computer-image {
+    width: 350px;
+    height: auto;
+    background-color: rgb(255, 112, 112);
+    border-radius: 50%;
+}
